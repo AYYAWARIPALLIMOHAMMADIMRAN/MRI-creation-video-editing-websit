@@ -1,0 +1,108 @@
+             h1 {
+                color:yellow;
+                font-size:20 0px;
+                }
+            .H1{
+                color:rgb(11, 11, 11);
+                font-size: 50px;
+                }
+                u{
+                    color: chartreuse;
+                }
+         header {
+                background-color: rgb(20, 20, 20);
+                font-size: 40px;
+                padding: 10px;        
+                }
+            #p1{
+                font-size: 60%;
+                font-style: italic;
+                color: white;
+                }
+             p {
+                padding-left: 40px;
+                font-style: italic;
+                color: black;
+                }
+        #display{
+                display:inline-block;
+                align-self: top;
+        }
+            nav{
+                background-color: orange;
+                padding: 30px;
+            }
+            a:link{
+                text-decoration: none;
+                padding: 0 30px;
+            }
+            #a:hover{
+                color:black;
+                text-decoration: underline
+            }
+            a:active{
+                color: rgb(8, 8, 252);
+            }
+            footer {
+                    background-color: black;
+                    color: white;
+                    padding: 30px;
+                    text-align: center;
+                    }
+                    .main{
+                        max-width: 100%;
+                        margin: auto;
+                        padding: 10px;
+                        overflow: hidden;
+                        border: 2px solid maroon;
+                    }
+                    .container {
+                        float: left;
+                        width: 30%;
+                        padding: 20px;
+                        /*background-color: black;*/
+                        overflow: hidden;
+                        border-radius:30px;
+                      }
+                      @keyframes example {
+                        0%   {background-color:green;}
+                        25%  {background-color: yellow;}
+                        50%  {background-color: blue;}
+                        100% {background-color:  black;}
+                      }
+                      div {
+                        width: 1200px;
+                        height: 80%;
+                        border-radius: 30px;
+                        background-color: rgb(23, 6, 254);
+                        animation-name: example;
+                        animation-duration: 4s;
+                      }
+                      .container:hover {
+                        background-color: rgb(15, 15, 15);
+                      }
+                      img{
+                        width: 360px;
+                        height: 200px;
+                        border-radius: 10px;
+                      }
+                      video{
+                        width: 360px;
+                        height: 400px;
+                        border-radius: 10px;
+                      }
+        table{
+            border:solid blue;
+            border-collapse: collapse;
+            background-color: antiquewhite;
+            color: black;
+            width:40%;
+            
+        }
+        label,input{
+            padding: 10px; 
+        }
+        #sub:hover{
+            background-color: chartreuse;
+            color: blue;
+        }
